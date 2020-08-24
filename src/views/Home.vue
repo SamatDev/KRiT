@@ -14,7 +14,7 @@ export default {
   components: {
     TableApp
   },
-  mounted() {
+  created () {
     this.$store.dispatch('GET_DATA')
   },
   computed: {
